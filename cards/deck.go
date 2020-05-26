@@ -13,7 +13,7 @@ import (
 type deck []string
 
 func newDeck() deck {
-	suits := deck{"Club", "Hearts", "Diamonds", "Spades"}
+	suits := deck{"Clubs", "Hearts", "Diamonds", "Spades"}
 	// values := deck{"Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"}
 	values := deck{"Jack", "Queen", "King", "Ace"}
 	cards := deck{}
